@@ -1,0 +1,19 @@
+{
+  "name": "desafio-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "../node_modules/.bin/cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.3.1"
+  },
+  "dependencies": {
+    "faker": "^5.5.3",
+    "joi": "^17.4.2"
+  }
+}
