@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-import usuariosSchema from '../contratct/usuarios.contract';
+import usuariosSchema from '../contract/usuarios.contract';
 import * as GetUsuarios from '../requests/getUsuarios'
 
 describe('Get usuários', () => {

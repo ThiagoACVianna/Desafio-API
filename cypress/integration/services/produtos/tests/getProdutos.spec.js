@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
 import * as GetProdutos from '../requests/getProdutos.request';
-import produtosSchema from '../contratct/produtos.contract';
+import produtosSchema from '../contract/produtos.contract';
 
 describe('Get Produtos', () => {
     it('Listar Produtos', () => {

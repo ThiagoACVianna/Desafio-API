@@ -1,8 +1,8 @@
 /// <reference types="cypress" />
 
-let payloadLogin = require('../payload/add-login.payload.json');
 
 function entrar(email, password) {
+
     
 
 
@@ -13,7 +13,7 @@ function entrar(email, password) {
             accept: "application/json"
         },
         failOnStatusCode: false,
-        body: payloadLogin
+        body: {email, password}
     })
 
 }

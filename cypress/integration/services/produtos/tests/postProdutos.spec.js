@@ -3,6 +3,7 @@
 import * as PostProdutos from '../requests/postProdutos.request';
 import * as PostLogin from '../../login/requests/postLogin.request';
 import * as PostUsuarios from '../../usuarios/requests/postUsuarios';
+import * as PostCarrinho from '../../carrinhos/requests/postCarrinhos.request';
 
 var faker = require('faker')
 
@@ -24,6 +25,9 @@ describe('Post Produtos', () => {
                 PostProdutos.adicionarprodutos(resLogin.body.authorization).should((resProdutos) => {
                     expect(resProdutos.status).to.eq(201)
                     expect(resProdutos.body.message).to.eq("Cadastro realizado com sucesso")
+
+                   
+
                 });              
             });        
         });

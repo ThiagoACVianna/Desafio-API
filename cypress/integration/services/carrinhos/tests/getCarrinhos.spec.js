@@ -1,4 +1,4 @@
-import getCarrinhoSchema from '../contratct/carrinhos.contract';
+import getCarrinhoSchema from '../contract/carrinhos.contract';
 import * as GetCarrinho from '../requests/getCarrinhos.requests';
 
 

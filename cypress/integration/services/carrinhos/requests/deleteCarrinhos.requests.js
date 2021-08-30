@@ -1,11 +1,12 @@
 /// <reference types="cypress" />
 
-function deleteCarrinhos() {
+function deleteCarrinhos(auth) {
     return cy.request({
-        method: "POST",
-        url: "carrinhos",
+        method: "DELETE",
+        url: "carrinhos/concluir-compra",
         headers: {
-            accept: "application/json"
+            accept: "application/json",
+            authorization: auth
 
 
         },
